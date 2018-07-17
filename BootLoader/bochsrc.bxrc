@@ -1,0 +1,5 @@
+#At Boot time tell Bochs to go to the floppy disk
+#as the preferred boot_sector
+
+floppya: 1_44=boot_sect.bin, status=inserted
+boot: a
